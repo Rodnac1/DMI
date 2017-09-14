@@ -1,0 +1,74 @@
+    1  firefox
+    2  firefox &
+    3  uname-r
+    4  uname -r
+    5  lsb_release
+    6  cat /etc/*-release
+    7  pwd
+    8  whoami
+    9  who
+   10  ls
+   11  cd
+   12  /cd
+   13  echo
+   14  /echo
+   15  cat
+   16  firefox &
+   17  uname -r
+   18  lsb_release
+   19  cat /etc/*-release
+   20  pwd
+   21  whoami
+   22  who
+   23  ls
+   24  cd
+   25  /cd
+   26  man
+   27  desktop
+   28  man pwd
+   29  cat /etc/*-release
+   30  echo $0
+   31  echo 17%
+   32  echo 100%
+   33  sh
+   34  pwd
+   35  who
+   36  whoami
+   37  who
+   38  ls
+   39  ls -l
+   40  ls -a
+   41  ls -al
+   42  cd Documents/
+   43  ls
+   44  pwd
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd ..
+   49  pwd
+   50  cd /home/user
+   51  cd /home/
+   52  cd 
+   53  cd
+   54  pwd
+   55  cd /home/
+   56  pwd
+   57  cd /
+   58  ls
+   59  mkdir darbi10
+   60  cd ~
+   61  cd -
+   62  ls
+   63  cd /
+   64  ls
+   65  cd
+   66  ls
+   67  mkdir Documents/
+   68  mk
+   69  mkdir darbi
+   70  ls
+   71  cd darbi/
+   72  ls -al
+   73  history
+   74  history > history.txt
