@@ -1,5 +1,5 @@
-
-
+    1  firefox
+    2  firefox &
     3  uname-r
     4  uname -r
     5  lsb_release
@@ -92,3 +92,88 @@ git commit -m "20170914_15_55"
    90  ls -l
    91  cat history.txt
    92  history > history.txt
+   93  ls -l
+   94  nano history.txt
+   95  ls
+   96  ls -l
+   97  cat history.txt 
+   98  git add .
+   99  git commit -m "20170914_16_45"
+  100  git push origin master
+  101  Tecmint is a community of Linux Nerds 
+  102  echo Tecmint is a community of Linux Nerds 
+  103  x=10
+  104  echo The value of variable x = $x 
+  105  -e "Tecmint \bis \ba \bcommunity \bof \bLinux \bNerds" 
+  106  -e "Tecmint \bis \ba \bcommunity \bof \bLinux \bNerds"
+  107  echo The value of variable x = $x 
+  108  -e "Tecmint \bis \ba \bcommunity \bof \bLinux \bNerds"
+  109  echo Tecmint is a community of Linux Nerds
+  110  x=10
+  111  echo The value of variable x = $x 
+  112  -e "Tecmint \bis \ba \bcommunity \bof \bLinux \bNerds"
+  113  echo -e "Tecmint \bis \ba \bcommunity \bof \bLinux \bNerds"
+  114  echo -e "Tecmint \nis \na \ncommunity \nof \nLinux \nNerds"
+  115  echo -e "Tecmint \tis \ta \tcommunity \tof \tLinux \tNerds"
+  116  echo -e "\n\tTecmint \n\tis \n\ta \n\tcommunity \n\tof \n\tLinux \n\tNerds"
+  117  echo -e "\vTecmint \vis \va \vcommunity \vof \vLinux \vNerds"
+  118  echo -e "\n\vTecmint \n\vis \n\va \n\vcommunity \n\vof \n\vLinux \n\vNerds"
+  119  echo -e "Tecmint \ris a community of Linux Nerds"
+  120  echo -e "Tecmint is a community \cof Linux Nerds" 
+  121  echo -n "Tecmint is a community of Linux Nerds"
+  122  echo -e "Tecmint is a community of \aLinux Nerds" 
+  123  echo * 
+  124  echo *.jpeg 
+  125  echo "Test Page" > testpage 
+  126  cat testpage 
+  127  ls -l
+  128  x=20
+  129  pwd
+  130  ls -l
+  131  pwd
+  132  cp history.txt a.txt
+  133  ls -l
+  134  cp history.txt -/a1.txt
+  135  pwd
+  136  cp history.txt -/a1.txt
+  137  ls -l
+  138  pwd
+  139  cp history.txt -/a1.txt
+  140  cp history.txt a.txt
+  141  cp history.txt -/a1.txt
+  142  cp history /home/user/a2.txt
+  143  cp history.txt ../al.txt
+  144  ls
+  145  cp history.txt ../a3.txt
+  146  ls
+  147  ls -l
+  148  cd ..
+  149  ls
+  150  cd ..
+  151  ls
+  152  ls -l
+  153  cd darbi
+  154  cd Documents
+  155  pwd
+  156  cd /
+  157  mv /home/user/*.txt -/darbi
+  158  mv /home/user/*.txt ~/darbi
+  159  cp history.txt ~/a1.txt
+  160  cd darbi
+  161  pwd
+  162  ls 
+  163  cd tmp
+  164  ls
+  165  ls -l
+  166  cd guest-nRNNyg
+  167  ls
+  168  cd darbi
+  169  man rmdir
+  170  rm apaksdarbi/
+  171  less history.txt
+  172  nano history.txt
+  173  cat nano.txt
+  174  pwd
+  175  ls -l
+  176  ls -al
+  177  history > history.txt
