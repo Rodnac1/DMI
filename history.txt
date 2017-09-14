@@ -1,5 +1,5 @@
-    1  firefox
-    2  firefox &
+
+
     3  uname-r
     4  uname -r
     5  lsb_release
@@ -72,3 +72,23 @@
    72  ls -al
    73  history
    74  history > history.txt
+   75  ls -l
+   76  cat history.txt
+   77  ls
+   78  cat history.txt
+   79  pwd
+   80  ls
+   81  cat history.txt
+   82  git init
+   83  git add .
+   84  git config --global user.email kostja8998@inbox.lv
+   85  ls
+   86  git commit -m "20170914_15_55
+cat history.txt
+git commit -m "20170914_15_55"
+   87  git commit -m "20170914_15_55"
+   88  git remote add origin https://github.com/Rodnac1/DMI.git
+   89  git push origin master
+   90  ls -l
+   91  cat history.txt
+   92  history > history.txt
