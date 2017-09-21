@@ -1,0 +1,56 @@
+    1  firefox &
+    2  pwd
+    3  ls -l
+    4  ls
+    5  nano
+    6  ls
+    7  git-download.clone
+    8  whereis ls
+    9  ls -l /bin/ls
+   10  /bin/ls
+   11  echo $PATH
+   12  PATH-$PATH:~
+   13  PATH-$PATH:-
+   14  PATH=$PATH:~
+   15  echo $PATH
+   16  git-download.clone
+   17  mv git-download.clone git-download.sh
+   18  git-download.sh
+   19  ls -l/bin/ls
+   20  whereis ls
+   21  ls -l /bin/ls
+   22  ls -l git-download.sh
+   23  chmod 744 git-download.sh
+   24  ls -l git-download.sh
+   25  ls
+   26  ls -l
+   27  git-download.sh
+   28  ls -l
+   29  cd DMI
+   30  LS -L
+   31  ls -l
+   32  LS -L
+   33  ls -l
+   34  pwd
+   35  ls -l
+   36  mv ~/git-download.sh ./
+   37  mv ../git-download.sh ./
+   38  ls
+   39  ls -l
+   40  mv git-download.sh git-download
+   41  ls
+   42  ls -l
+   43  PATH=$PATH:-/DMI
+   44  git-download
+   45  PATH=$PATH:~/DMI
+   46  git-download
+   47  ls -l
+   48  rm -rf DMI
+   49  LS -L
+   50  ls -l
+   51  nano git-upload
+   52  ls -l
+   53  git-upload
+   54  chmod 744 git-upload
+   55  ls -l
+   56  history > history_20170921.txt

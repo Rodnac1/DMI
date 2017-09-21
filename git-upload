@@ -1,0 +1,6 @@
+#!/bin/bash
+git config --global user.email  kostja8998@inbox.lv
+git add .
+git commit -m "20170921_15_50"
+git push origin master
+
