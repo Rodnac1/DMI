@@ -1,0 +1,147 @@
+    1  firefox &
+    2  cd DMI
+    3  mainigais=10
+    4  echo $mainigais
+    5  1_mainigais=20
+    6  mainigais_1=30
+    7  echo $1_mainigais
+    8  echo $mainigais_1
+    9  nano shell_exple.sh
+   10  cat shell_exple.sh
+   11  Name="Vārds Uzvārds"
+   12  echo $NAME
+   13  NAME="Vārds Uzvārds"
+   14  echo $NAME
+   15  ls -la
+   16  cat shell_exple.sh
+   17  shell_exple.sh
+   18  ls -la
+   19  chmod 744 shell_exple.sh
+   20  ls -la
+   21  shell_exple.sh
+   22  echo $PATH
+   23  pwd
+   24  shell_exple.sh
+   25  pwd
+   26  /home/user/DMI/shell_exple.sh
+   27  ../DMI/shell_exple.sh
+   28  pwd
+   29  /tmp/guest-0JFsuW/DMI/shell_exple.sh
+   30  pwd
+   31  /tmp/guest-0JFsuW/DMI/shell_exple.sh
+   32  cd .
+   33  /tmp/guest-0JFsuW/DMI/shell_exple.sh
+   34  pwd
+   35  ../DMI/shell_exple.sh
+   36  pwd
+   37  /tmp/guest-0JFsuW/DMI/shell_exple.sh
+   38  nano shell_exple.sh
+   39  /tmp/guest-0JFsuW/DMI/shell_exple.sh
+   40  ./shell_exple.sh
+   41  nano shell_exple.sh
+   42  ./shell_exple.sh
+   43  ../shell_exple.sh
+   44  ./shell_exple.sh
+   45  cat shell_exple.sh
+   46  nano shell_exple.sh
+   47  cat shell_exple.sh
+   48  nano shell_exple.sh
+   49  cat shell_exple.sh
+   50  ./shell_exple.sh
+   51  nano shell_exple.sh
+   52  cat shell_exple.sh
+   53  nano shell_exple.sh
+   54  cat shell_exple.sh
+   55  ./shell_exple.sh
+   56  nano shell_exple.sh
+   57  ./shell_exple.sh
+   58  ls
+   59  echo $0
+   60  nano shell_exple.sh
+   61  echo $0
+   62  ./shell_exple.sh
+   63  nano shell_exple.sh
+   64  ./shell_exple.sh
+   65  nano shell_exple.sh
+   66  echo $#
+   67  nano shell_exple.sh
+   68  ./shell_exple.sh
+   69  ./shell_exple.sh arg1
+   70  ./shell_exple.sh arg2
+   71  ./shell_exple.sh arg3
+   72  ./shell_exple.sh arg1 arg2
+   73  ./shell_exple.sh arg1 arg2 .. arg100
+   74  ./shell_exple.sh arg1 arg1
+   75  arg arg arg
+   76  ./shell_exple.sh arg arg
+   77  ./shell_exple.sh arg arg arg
+   78  nano shell_exple.sh
+   79  echo $*
+   80  ./shell_exple.sh
+   81  ./shell_exple.sh arg1
+   82  ./shell_exple.sh arg1 arg2
+   83  echo $@
+   84  nano shell_exple.sh
+   85  ./shell_exple.sh 
+   86  nano git-upload
+   87  echo $?
+   88  nano shell_exple.sh
+   89  echo $?
+   90  nan
+   91  echo $?
+   92  nano shell_exple.sh
+   93  ./shell_exple.sh 
+   94  nano shell_exple.sh
+   95  ./shell_exple.sh 
+   96  nano shell_exple.sh
+   97  ./shell_exple.sh 
+   98  nano shell_exple.sh
+   99  ls -la
+  100  ./shell_exple.sh 
+  101  echo $?
+  102  ls -la
+  103  echo $?
+  104  ./y
+  105  echo $?
+  106  nano shell_exple.sh
+  107  echo $?
+  108  shell_exple.sh
+  109  ./shell_exple.sh
+  110  nano shell_exple.sh
+  111  ./shell_exple.sh
+  112  echo $$
+  113  ./shell_exple.sh
+  114  echo $$
+  115  ./shell_exple.sh
+  116  echo $$
+  117  nano shell_exple.sh
+  118  echo $$
+  119  nano shell_exple.sh
+  120  ./shell_exple.sh
+  121  nano shell_exple.sh
+  122  ./shell_exple.sh
+  123  nano shell_exple.sh
+  124  ./shell_exple.sh
+  125  nano shell_exple.sh
+  126  ./shell_exple.sh
+  127  nano shell_exple.sh
+  128  echo $!
+  129  nano shell_exple.sh
+  130  echo $!
+  131  ./shell_exple.sh
+  132  nano shell_exple.sh
+  133  git-upload
+  134  nano git_upload
+  135  cd ..
+  136  nano git_upload
+  137  pwd
+  138  ls -la
+  139  cd Documents
+  140  ls -la
+  141  cd ..
+  142  cd DMI
+  143  nano git_upload
+  144  pwd
+  145  nano git_upload
+  146  nano git-upload
+  147  history > history_20170928.txt
