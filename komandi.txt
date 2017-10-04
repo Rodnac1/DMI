@@ -1,0 +1,46 @@
+
+
+cd .. - doties direktorijā augstāka līmeņa
+
+chmod 744 - piešķirt tiesības
+
+cp history.txt a1.txt - kopēt no viena direktorija uz otrū
+
+echo file - informācijas izlaide no "file" ar komandu izpilde iekšā
+
+ 
+
+firefox & - atvērt firefox
+
+git add . pievienot failus indeksā
+
+git push origin master - saglabāt sesiju
+
+ls - direktoriju failu saraksts
+
+ls -l - informācija par failiem
+
+ls -la formatēts failu saraksts
+
+lsb_release - Ubuntu versija
+
+man "komanda" - izziņas lapa
+
+mkdir - Izveidot direktoriju
+
+mv /home/user/*.txt ~/darbi - pārvietot failu
+
+nano - konsole teksta redaktors
+
+pwd - mūsu pozīcija
+
+rm - dzēst failu
+
+rm -rf nodzēst direktoriju
+
+uname -r - kodola versijas izlaide
+
+who - Lietotāju saraksts
+
+whoami - vārds ar kuru jūs esat sistēmā
+
