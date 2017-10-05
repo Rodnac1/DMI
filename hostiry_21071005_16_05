@@ -1,0 +1,57 @@
+    1  firefox &
+    2  git clone https://github.com/Rodnac1/DMI
+    3  ls -l
+    4  cm DMI
+    5  cd DMI
+    6  nano test.txt
+    7  cat test.txt
+    8  eche test.txt
+    9  echo test.txt
+   10  test.txt
+   11  cat test.txt
+   12  chmod 744 test.txt
+   13  cat test.txt
+   14  ./test.txt
+   15  >test.txt
+   16  > tests.txt
+   17  > test.txt
+   18  <>
+   19  >
+   20  nano test.txt
+   21  ls
+   22  nano test.txt
+   23  ./test.txt
+   24  nano test.txt
+   25  ./test.txt
+   26  nano test.txt
+   27  ./test.txt
+   28  nano test.txt
+   29  ./test.txt
+   30  nano test.txt
+   31  ./test.txt
+   32  nano test.txt
+   33  ./test.txt
+   34  nano test.txt
+   35  ./test.txt
+   36  nano test.txt
+   37  ./test.txt
+   38  nano test.txt
+   39  ./test.txt
+   40  nano test.txt
+   41  ./test.txt
+   42  nano test.txt
+   43  ./test.txt
+   44  nano test.txt
+   45  ./test.txt
+   46  nano test.txt
+   47  ./test.txt
+   48  nano test.txt
+   49  ./test.txt
+   50  nano test.txt
+   51  ./test.txt
+   52  nano test.txt
+   53  ./test.txt
+   54  nano test.txt
+   55  ./test.txt
+   56  nano test.txt
+   57  ./test.txt 55 55
