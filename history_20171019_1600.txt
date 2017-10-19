@@ -1,0 +1,51 @@
+    1  firefox &
+    2  git clone https://github.com/Rodnac1/DMI
+    3  pwd
+    4  ls -l
+    5  cd DMI
+    6  nano dialogs.sh
+    7  echo dialogs.sh
+    8  cat dialogs.sh
+    9  chmod 744 dialogs.sh
+   10  cat dialogs.sh
+   11  nano dialogs.sh
+   12  cat dialogs.sh
+   13  nano dialogs.sh
+   14  cp dialogs.sh a_VS_b.sh
+   15  nano a_VS_b.sh
+   16  chmod 744 a_VS_b.sh
+   17  cat a_VS_b.sh
+   18  nano a_VS_b.sh
+   19  cat a_VS_b.sh
+   20  nano a_VS_b.sh
+   21  cat a_VS_b.sh
+   22  nano a_VS_b.sh
+   23  cat a_VS_b.sh
+   24  nano a_VS_b.sh
+   25  cat a_VS_b.sh
+   26  nano a_VS_b.sh
+   27  chmod 744 a_VS_b.sh
+   28  cat a_VS_b.sh
+   29  nano a_VS_b.sh
+   30  cat a_VS_b.sh
+   31  nano a_VS_b.sh
+   32  nano dialogs.sh
+   33  nano a_VS_b.sh
+   34  nano bbb.sh
+   35  chmod 744 bbb.sh
+   36  cat bbb.sh
+   37  cat a_VS_b.sh
+   38  nano a_VS_b.sh
+   39  cat a_VS_b.sh
+   40  nano a_VS_b.sh
+   41  ./a_VS_b.sh
+   42  ./bbb.sh
+   43  nano a_VS_b.sh
+   44  cp a_VS_b.sh a_VS_b_VS_c.sh
+   45  ./ a_VS_b.sh
+   46  ./a_VS_b.sh
+   47  nano a_VS_b.sh
+   48  ./a_VS_b.sh
+   49  nano a_VS_b_VS_c.sh
+   50  histroty > history_20171019_1600.txt
+   51  history > history_20171019_1600.txt
