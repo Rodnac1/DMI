@@ -1,0 +1,104 @@
+    1  firefox &
+    2  git clone https://github.com/Rodnac1/DMI
+    3  ls -la
+    4  ls -lt
+    5  cd DMI
+    6  mkdir PYTHON
+    7  ls -l
+    8  cd PYTHON
+    9  nano hello.py
+   10  whereis python
+   11  nano hello.py
+   12  ./hello.py
+   13  chmod 744 hello.py
+   14  ./hello.py
+   15  nano hello.py
+   16  ./hello.py
+   17  nano hello.py
+   18  ./hello.py
+   19  nano hello.py
+   20  ./hello.py
+   21  nano hello.py
+   22  ./hello.py
+   23  nano hello.py
+   24  ./hello.py
+   25  nano hello.py
+   26  ./hello.py
+   27  nano hello.py
+   28  ./hello.py
+   29  nano hello.py
+   30  ./hello.py
+   31  nano hello.py
+   32  ./hello.py
+   33  nano hello.py
+   34  ./hello.py
+   35  nano hello.py
+   36  ./hello.py
+   37  nano hello.py
+   38  ./hello.py
+   39  nano hello.py
+   40  ./hello.py
+   41  nano hello.py
+   42  ./hello.py
+   43  nano hello.py
+   44  ./hello.py
+   45  nano hello.py
+   46  ./hello.py
+   47  nano hello.py
+   48  ./hello.py
+   49  nano hello.py
+   50  ./hello.py
+   51  nano hello.py
+   52  ./hello.py
+   53  nano veriables.py
+   54  chmod 744 variables.py
+   55  chmod 744 veriables.py
+   56  ./veriables.py
+   57  nano veriables.py
+   58  ./veriables.py
+   59  nano veriables.py
+   60  ./veriables.py
+   61  nano veriables.py
+   62  ./veriables.py
+   63  nano veriables.py
+   64  ./veriables.py
+   65  nano veriables.py
+   66  ./veriables.py
+   67  nano veriables.py
+   68  ./veriables.py
+   69  nano veriables.py
+   70  ./veriables.py
+   71  nano veriables.py
+   72  ./veriables.py
+   73  nano veriables.py
+   74  ./veriables.py
+   75  nano veriables.py
+   76  ./veriables.py
+   77  nano veriables.py
+   78  ./veriables.py
+   79  nano veriables.py
+   80  nano dialog.py
+   81  nano if.py
+   82  fg
+   83  nano if.py
+   84  python if.py
+   85* 
+   86  python if.py
+   87  chmod 744 if.py
+   88  python if.py
+   89  nano if.py
+   90  python if.py
+   91  nano if.py
+   92  python if.py
+   93  nano if.py
+   94  python if.py
+   95  nano if.py
+   96  python if.py
+   97  nano if.py
+   98  python if.py
+   99  nano if.py
+  100  idle &
+  101  nano if.py
+  102  ls -l
+  103  cd ..
+  104  history > history_20171109_1800.txt
