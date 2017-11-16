@@ -1,0 +1,38 @@
+    1  firefox &
+    2  git clone https://github.com/Rodnac1/DMI
+    3  ls
+    4  cd DMI
+    5  cd PYTHON
+    6  nano sin_caur_summu_ver1.py
+    7  ./sin_caur_summu_ver1.py
+    8  chmod 744 sin_caur_summu_ver1.py
+    9  ./sin_caur_summu_ver1.py
+   10  nano sin_caur_summu_ver1.py
+   11  ./sin_caur_summu_ver1.py
+   12  nano sin_caur_summu_ver1.py
+   13  ./sin_caur_summu_ver1.py
+   14  nano sin_caur_summu_ver1.py
+   15  python sin_caur_summu_ver1.py
+   16  nano sin_caur_summu_ver1.py
+   17  python sin_caur_summu_ver1.py
+   18  nano sin_caur_summu_ver1.py
+   19  python sin_caur_summu_ver1.py
+   20  nano sin_caur_summu_ver1.py
+   21  python sin_caur_summu_ver1.py
+   22  nano sin_caur_summu_ver1.py
+   23  python sin_caur_summu_ver1.py
+   24  nano sin_caur_summu_ver1.py
+   25  nano sin_caur_summu_ver2.py
+   26* 
+   27  cope  sin_caur_summu_ver1.py  sin_caur_summu_ver2.py
+   28  copy  sin_caur_summu_ver1.py  sin_caur_summu_ver2.py
+   29  cp  sin_caur_summu_ver1.py  sin_caur_summu_ver2.py
+   30  nano sin_caur_summu_ver2.py
+   31  python sin_caur_summu_ver2.py
+   32  nano sin_caur_summu_ver2.py
+   33  python sin_caur_summu_ver2.py
+   34  nano sin_caur_summu_ver2.py
+   35  python sin_caur_summu_ver2.py
+   36  nano sin_caur_summu_ver2.py
+   37  cd ..
+   38  history > history_20171116_1600.txt
