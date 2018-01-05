@@ -1,8 +1,19 @@
-# -*- coding utf-8 -*-
+# -*- coding: utf-8 -*-
 
-a = input("Lietotaj, ludzu, ievadi skaitli: ")
+a = input("Lietotāj, lūdzu, ievadi skaitli: ")
 
 if a > 0:
-	print"Tu esi ievadijis pozitivu skaitli"
+    print "Tu esi ievadījis pozitīvu skaitli"
+elif a == 0:
+    print "Tu esi ievadījis NULLI"
 else:
-	print"Tu neesi ievadijis pozitivu skaitli"
+    print "Tu esi ievadījis negatīvu skaitli"
+print "Bet šo tekstu Tu redzēsi katru reizi!!!"
+
+
+'''
+if a > 0:
+    print "Tu esi ievadījis pozitīvu skaitli"
+else:
+    print "Tu neesi ievadījis pozitīvu skaitli"
+'''

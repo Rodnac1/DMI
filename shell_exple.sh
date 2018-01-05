@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #4. piemērs
 echo -e "\n"
 echo "Atbilde uz jautājumu - kas tiek pildīts?" $0

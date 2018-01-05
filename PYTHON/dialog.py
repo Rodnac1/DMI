@@ -1,24 +1,28 @@
-#!/usr/bin/python
-# -*- coding utf-8 -*-
 
-a = ("Lietotaj, ludzu ievadi savu vardu: ")
-b = ("Lietotaj, ludzu, ievadi savu uzvardu: ")
-print "Tatad, Tevi sauc %s"%(a + b)
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+a = raw_input("Lietotāj, lūdzu, ievadi savu vārdu: ")
+b = raw_input("Lietotāj, lūdzu, ievadi savu uzvārdu: ")
+print "Tātad, Tevi sauc - %s"%(a + ' ' + b)
+print "Tātad, Tevi sauc - %s"%(a + chr(32) + b)
+
+
 
 '''
-#shell
-#echo "Lietotaj, ludzu, Ievadi kaut ko:"
+#shell:
+#echo "Lietotāj, lūdzu, ievadi kaut ko: "
 #read a
-#python
-#print "Lietotaj, ludzu, Ievadi kaut ko:"
-#a = input
-a = input("Lietotaj,ludzu, ievadi kaut ko: ")
-print "Tu esi ievadijis %s tipa datus"%(type(a))
+#python:
+#print "Lietotāj, lūdzu, ievadi kaut ko: "
+#a = input()
+a = input("Lietotāj, lūdzu, ievadi kaut ko: ")
+print "Tu esi ievadījis %s tipa datus"%(type(a))
 print a * a
 print a + a
-
-a = raw_input("Lietotaj, ludzu, ievadi kaut ko: ")
-print "Tu esi ievadijis %s tipa datus"%(type(a))
+a = raw_input("Lietotāj, lūdzu, ievadi kaut ko: ")
+print "Tu esi ievadījis %s tipa datus"%(type(a))
 #print a * a
-
+print a + a
+'''
 
