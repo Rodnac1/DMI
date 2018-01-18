@@ -1,17 +1,31 @@
 #!/bin/bash
-a=$1
-b=$2
-c=$3
-# ja c ir > par b (un > c) un b > a
-if (( $c > $b && $b > $a ))
-then
-    echo "GATAVS(1.): $a $b $c"
-fi
+#sakartosana
+num=("$@")
+n=$#
 
-echo "$a $c $b"
-echo "$b $a $c"
-echo "$b $c $a"
-echo "$c $a $b"
-echo "$c $b $a"
+#min & max
+sortednum=($(printf "%s\n" "${num[@]}" | sort -n))
+echo ${sortednum[@]}
+echo "MIN:" ${sortednum[0]}
+echo "MAX:" ${sortednum[n-1]}
+#videja vertiba
+sum=0
+for((i=0;i<n;i++))
+do
+sum=`expr $sum + ${num[$i]}`
+done
+vidver=$sum/$n
+echo -n "Videja vertiba: "
+echo $vidver|bc
+#Mediana
+if (( n%2 != 0 ))
+then
+echo -n "Mediana:"
+echo "${sortednum[($n-1)/2]}" | bc
+else
+echo -n "Mediana:"
+echo "scale=1;(${sortednum[$n/2]} + ${sortednum[$n/2-1]})/2" |bc
+fi
+echo "moda ne v mode"
 
 
