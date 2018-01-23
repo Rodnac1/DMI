@@ -65,5 +65,5 @@ print "Rezultats ir sasniegts %d iteracijas"%(k)
 print "Sakne ir %.5f, tāpēc ka y ir vienāds ar %.5f."%(x,citafunkcija(x))
 
 
-print "Parāda, kur tiek krustota x ass ,kad ir veikta nobīde par -10 vienībām. (Lai dihotomijas metodi varētu pielietot mums vajag, lai y vērtība būtu 0 vai arī mums interesējošā intervālā funkcijas zīme mainītos.Funkcijai sinh dotajā intervālā sakņu nav,bet pārveidojot funkciju tā, lai funkcija būtu vienāda ar nulli (f(x)=a;f(x)-a=0) mēs varam atrast sakni, kur tiek krustota x ass.)"
+print "Parāda, kur tiek krustota x ass ,kad ir veikta nobīde par -10 vienībām. (Lai dihotomijas metodi varētu pielietot mums vajag, lai y vērtība būtu 0 vai arī mums interesējošā intervālā funkcijas zīme mainītos.Funkcijai cos(x*x) dotajā intervālā sakņu nav,bet pārveidojot funkciju tā, lai funkcija būtu vienāda ar nulli (f(x)=a;f(x)-a=0) mēs varam atrast sakni, kur tiek krustota x ass.)"
 print "Sakne tiek meklēta tik ilgi kamēr b-a ir lielāks par 1.e-3.Kad b-a vērtība kļūst mazāka par 1.e-3 meklēšana beidzas. "
