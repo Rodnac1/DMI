@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from math import sin
+from math import cos
 import numpy as np
 import matplotlib.pyplot as plt
 
