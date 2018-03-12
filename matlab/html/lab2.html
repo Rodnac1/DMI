@@ -66,11 +66,14 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">%%1</span>
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">%2.laboratorijas darbs</span>
+<span class="comment">%Konstantins Glaskovs 171REB115 - REBC04, 1.kurss</span>
+<span class="comment">%1.uzd. atrisinat vienadojumu a*x^2+b*x+c=0</span>
 syms <span class="string">a</span> <span class="string">b</span> <span class="string">c</span> <span class="string">x</span>
 y = solve(a*x^2+b*x+c==0,x)
 pretty(y)
-<span class="comment">%%2</span>
+<span class="comment">%2.uzd atrast F'(x)= ?</span>
+<span class="comment">% f(x)= x^(sin(x)), x[0,10]</span>
 syms <span class="string">x</span>;
 y = (x^(sin(x)))
 y_atv = diff(y)
@@ -86,6 +89,22 @@ y_ltx = latex(y);
 y_atv_ltx = latex(y_atv);
 h = legend([<span class="string">'$'</span>, y_ltx, <span class="string">'$'</span>], [<span class="string">'$'</span>, y_atv_ltx,<span class="string">'$'</span>]);
 set(h, <span class="string">'Interpreter'</span>, <span class="string">'latex'</span>);
+<span class="comment">%Secinajums:</span>
+<span class="comment">% Panemu savu darbu uzdevumu no ortusa</span>
+<span class="comment">%Ar komandu syms pievienoju mainigus a b c x</span>
+<span class="comment">% Ar komandu solve atrisinaju vienadojumu</span>
+<span class="comment">% ar komandu pretty izveidoju skaistaku formu)))</span>
+<span class="comment">%2 dala man bija izteiksme f(x)= x^(sin(x)), x[0,10], F'(x)= ?,</span>
+<span class="comment">%1)j&#257;trod atvasin&#257;jums y_atv=diff(y)</span>
+<span class="comment">%2)Ar komandu x=[0:0.01:10]; defineju x skaitla vektoru</span>
+<span class="comment">%3)j&#257;veic izteiksmju vektoriz&#257;cija y_vect = vectorize(y)</span>
+<span class="comment">%y_atv_vect = vectorize(y_atv)</span>
+<span class="comment">%4) izmantot eval interpretatoru y_num = eval(y_vect);</span>
+<span class="comment">%y_num_atv = eval(y_vect_atv);</span>
+<span class="comment">%5) ar komandu plot uzzimesim grafiku</span>
+<span class="comment">%6)xlim ylim - grika diapazons</span>
+<span class="comment">%7)anot&#257;cija katrai l&#299;knei - y_ltx = latex(y);</span>
+<span class="comment">%y_atv_ltx = latex(y_atv);</span>
 </pre><pre class="codeoutput"> 
 y =
  
@@ -114,11 +133,14 @@ x^(sin(x) - 1)*sin(x) + x^sin(x)*cos(x)*log(x)
  
 </pre><img vspace="5" hspace="5" src="lab2_01.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2016b</a><br></p></div><!--
 ##### SOURCE BEGIN #####
-%%1
+%2.laboratorijas darbs
+%Konstantins Glaskovs 171REB115 - REBC04, 1.kurss
+%1.uzd. atrisinat vienadojumu a*x^2+b*x+c=0 
 syms a b c x
 y = solve(a*x^2+b*x+c==0,x)
 pretty(y)
-%%2
+%2.uzd atrast F'(x)= ?
+% f(x)= x^(sin(x)), x[0,10]
 syms x;
 y = (x^(sin(x)))
 y_atv = diff(y)
@@ -134,5 +156,21 @@ y_ltx = latex(y);
 y_atv_ltx = latex(y_atv);
 h = legend(['$', y_ltx, '$'], ['$', y_atv_ltx,'$']);
 set(h, 'Interpreter', 'latex');
+%Secinajums:
+% Panemu savu darbu uzdevumu no ortusa
+%Ar komandu syms pievienoju mainigus a b c x
+% Ar komandu solve atrisinaju vienadojumu 
+% ar komandu pretty izveidoju skaistaku formu)))
+%2 dala man bija izteiksme f(x)= x^(sin(x)), x[0,10], F'(x)= ?,
+%1)jātrod atvasinājums y_atv=diff(y)
+%2)Ar komandu x=[0:0.01:10]; defineju x skaitla vektoru
+%3)jāveic izteiksmju vektorizācija y_vect = vectorize(y)
+%y_atv_vect = vectorize(y_atv)
+%4) izmantot eval interpretatoru y_num = eval(y_vect);
+%y_num_atv = eval(y_vect_atv);
+%5) ar komandu plot uzzimesim grafiku
+%6)xlim ylim - grika diapazons
+%7)anotācija katrai līknei - y_ltx = latex(y);
+%y_atv_ltx = latex(y_atv);
 ##### SOURCE END #####
 --></body></html>
