@@ -36,15 +36,15 @@
 % ylim([-3 3])
 % grid on
 function y = lab3_demo_fun(t)
-t = 0:0.01:7;
+%t = 0:0.01:7;
 %t_zero = 3:0.01:5;
-t_zerof=(t>=3)&(t<=5);t_zero = t(t_zerof);
+t_zerof=(t>=3)&(t<5);t_zero = t(t_zerof);
 %t_sin =5:0.01:6.5;
 t_sinf=(t>=5)&(t<6.5);t_sin=t(t_sinf);
 %t_noise = 6.5:0.01:7;
-t_noisef=(t>=6.5)&(t<7);t_noise=t(t_noisef);
+t_noisef=(t>=6.5)&(t<=7);t_noise=t(t_noisef);
 %t_const = 1:0.01:3;
-t_constf=(t>=1)&(t<=3);t_const=t(t_constf);
+t_constf=(t>1)&(t<3);t_const=t(t_constf);
 %t_saw = 0:0.01:1;
 t_sawf = (t>=0)&(t<=1);t_saw=t(t_sawf);
 %% sinusoīda
@@ -70,7 +70,7 @@ y_zero = zeros(size(t_zero))-3;
 y_noise = 3*rand(size(t_noise))-1.5;
 %plot(t_noise,y_noise)
 %% signālu apvienošana
-t = [t_saw,t_const,t_zero,t_sin,t_noise];
+% t = [t_saw,t_const,t_zero,t_sin,t_noise];
 y = [y_saw,y_const,y_zero,y_sin,y_noise];
 plot(t,y)
 ylim([-3.5 3.5]);
